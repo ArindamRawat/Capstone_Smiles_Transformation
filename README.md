@@ -89,16 +89,7 @@ CN(Cl(,CN(Cl)
 
 ---
 
-# 🚀 **6. Training**
-
-```python
-from capstone_main_transformed import train_and_validate
-train_and_validate()
-```
-
----
-
-# 🧩 **7. Future Work**
+# 🧩 **6. Future Work**
 - SELFIES-based constraints  
 - Grammar-constrained decoding  
 - ChemBERTa / SMILES-BART  
@@ -106,7 +97,7 @@ train_and_validate()
 - Expansion to QSAR, docking, ADMET, toxicology  
 ---
 
-# 📬 **14. Contact**
+# 📬 **7. Contact**
 **Arindam Rawat**  
 Department of Computer Science  
 Bennett University  
