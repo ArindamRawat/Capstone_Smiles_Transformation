@@ -19,16 +19,6 @@ This project presents a **Transformer-based correction system** that:
 - Validates chemical correctness via RDKit  
 - Measures similarity using Tanimoto & edit-distance metrics  
 - Ensures corrected SMILES remain chemically meaningful  
-
-This repository includes:
-
-- Full **research paper (LaTeX)**  
-- End-to-end **model implementation**  
-- Dataset instructions  
-- Training and evaluation script  
-- Academic research poster  
-- All supporting utilities  
-
 ---
 
 # 🧠 **2. Core Idea**
