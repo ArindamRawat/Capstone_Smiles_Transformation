@@ -77,42 +77,8 @@ Vocabulary size: ~60–120 tokens.
 
 ---
 
-# 📁 **5. Repository Structure**
-```
-.
-├── capstone_main_transformed.py
-├── capstone_main.py
-├── research_paper/
-├── data/
-│   ├── train_pairs.csv
-│   ├── val_pairs.csv
-│   └── test_pairs.csv
-├── SMILES_Poster.png
-├── test_predictions.csv
-└── README.md
-```
 
----
-
-# 📦 **6. Installation**
-
-```
-pip install -r requirements.txt
-```
-
-requirements.txt:
-```
-torch
-pandas
-numpy
-tqdm
-rdkit-pypi
-scikit-learn
-```
-
----
-
-# 🧪 **7. Dataset Format**
+# 🧪 **5. Dataset Format**
 
 train_pairs.csv / val_pairs.csv / test_pairs.csv:
 ```
@@ -123,7 +89,7 @@ CN(Cl(,CN(Cl)
 
 ---
 
-# 🚀 **8. Training**
+# 🚀 **6. Training**
 
 ```python
 from capstone_main_transformed import train_and_validate
@@ -132,53 +98,12 @@ train_and_validate()
 
 ---
 
-# 🔍 **9. Inference**
-
-```python
-from capstone_main_transformed import encode_smiles, beam_search_decode, decode_smiles_from_ids, model, stoi
-src_ids = encode_smiles("C(C(C", stoi)
-pred_ids = beam_search_decode(model, src_ids)
-print(decode_smiles_from_ids(pred_ids))
-```
-
----
-
-# 📈 **10. Evaluation**
-
-```python
-from capstone_main_transformed import evaluate_on_test
-evaluate_on_test()
-```
-
----
-
-# 🖼️ **11. Poster**
-
-Included:
-- SMILES_Poster.png
-
----
-
-# 🧩 **12. Future Work**
+# 🧩 **7. Future Work**
 - SELFIES-based constraints  
 - Grammar-constrained decoding  
 - ChemBERTa / SMILES-BART  
 - Hybrid neural–symbolic models  
 - Expansion to QSAR, docking, ADMET, toxicology  
-
----
-
-# 🔖 **13. Citation**
-
-```
-@article{rawat2025smilescorrection,
-  title={Transformer-Based SMILES Correction and Validation Model for AI-Generated Molecules},
-  author={Arindam Rawat},
-  year={2025},
-  institution={Bennett University}
-}
-```
-
 ---
 
 # 📬 **14. Contact**
